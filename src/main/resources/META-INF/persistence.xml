@@ -1,0 +1,16 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <!-- Define persistence unit -->
+    <persistence-unit name="snal">
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://moktok.javawebdev.com:3306/lavanya"/>
+            <property name="javax.persistence.jdbc.user" value="lavanya"/>
+            <property name="javax.persistence.jdbc.password" value="lavanya2020"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+
+        </properties>
+    </persistence-unit>
+
+
+</persistence>
